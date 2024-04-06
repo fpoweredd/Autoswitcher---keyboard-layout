@@ -11,4 +11,5 @@ This script in an infinite loop helps me to skip the unnecessary layout.
 Open PS
 
 whoami - YOUR_USER_NAME
+
 schtasks /create /tn "kbswitcher" /tr "python PATH_TO_FILE_PY" /sc onlogon /ru YOUR_USER_NAME
